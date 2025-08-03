@@ -1,0 +1,15 @@
+# task3_thresholding_answer.py
+
+# Given pixel value
+pixel_value = 180
+threshold = 150
+
+# Apply binary thresholding manually
+if pixel_value > threshold:
+    new_value = 255
+else:
+    new_value = 0
+
+print(f"Original pixel value: {pixel_value}")
+print(f"Threshold: {threshold}")
+print(f"New pixel value after binary thresholding: {new_value}")
